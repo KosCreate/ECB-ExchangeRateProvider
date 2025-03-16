@@ -3,6 +3,7 @@ using ECB_ExchangeRateProvider.Data;
 using ECB_ExchangeRateProvider.DTO;
 using ECB_ExchangeRateProvider.Models;
 using ECB_ExchangeRateProvider.Repositories;
+using ECB_ExchangeRateProvider.Validation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECB_ExchangeRateProvider.Controllers {
@@ -16,6 +17,14 @@ namespace ECB_ExchangeRateProvider.Controllers {
 
         [HttpPost("createWallet")]
         public async Task<IActionResult> CreateWallet([FromBody] WalletDto walletDto) {
+            if (string.IsNullOrEmpty(walletDto.Currency)) {
+                return BadRequest("Specify a valid currency");
+            }
+
+            if (!CurrencyValidator.IsValidCurrency(walletDto.Currency)) {
+                return BadRequest("Currency is not valid");
+            }
+
             var wallet = new WalletModel() {
                 Currency = walletDto.Currency,
                 Balance = walletDto.Balance,
@@ -28,6 +37,10 @@ namespace ECB_ExchangeRateProvider.Controllers {
 
         [HttpGet("{id:long}")]
         public async Task<IActionResult> GetWalletBalance([FromRoute] long id, string? currency) {
+            if(!string.IsNullOrEmpty(currency) && !CurrencyValidator.IsValidCurrency(currency)) {
+                return BadRequest("Currency is not valid");
+            }
+
             var walletCurrency = await _walletRepository.RetrieveWalletBalanceAsync(id, currency);
 
             if (walletCurrency == null) {
@@ -39,6 +52,10 @@ namespace ECB_ExchangeRateProvider.Controllers {
 
         [HttpPost("{id:long}/adjustbalance")]
         public async Task<IActionResult> AdjustWalletBalance([FromRoute] long id, decimal amount, string currency, string strategy) {
+            if (!CurrencyValidator.IsValidCurrency(currency)) {
+                return BadRequest("Currency is not valid");
+            }
+
             if(amount < 0) {
                 return BadRequest("Amount should be a positive number");
             }

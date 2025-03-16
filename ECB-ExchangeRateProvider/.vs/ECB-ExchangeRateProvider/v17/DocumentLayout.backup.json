@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\athan\\AppData\\Local\\Temp\\4s2dy11d..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\validation\\currencyvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\validation\\currencyvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\jobs\\updateexchangeratesjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\jobs\\updateexchangeratesjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,10 +78,6 @@
       "RelativeMoniker": "D:0:0:{D09ACEE1-187F-448E-9BB3-71839E650175}|ExchangeRateGateway\\ExchangeRateGateway.csproj|solutionrelative:exchangerategateway\\models\\exchangerateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\automapper-profiles\\automappersolutionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\automapper-profiles\\automappersolutionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,20 +98,26 @@
       "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\ecb-exchangerateprovider.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Migrations\\20250316175109_Recreating Both tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECB-ExchangeRateProvider\\Migrations\\20250316175109_Recreating Both tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Migrations\\20250316175026_Recreating ExchangeRates table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECB-ExchangeRateProvider\\Migrations\\20250316175026_Recreating ExchangeRates table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Migrations\\20250316174926_Fixing overflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECB-ExchangeRateProvider\\Migrations\\20250316174926_Fixing overflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\data\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\data\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\migrations\\20250316175109_recreating both tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\migrations\\20250316175109_recreating both tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\migrations\\20250316175026_recreating exchangerates table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\migrations\\20250316175026_recreating exchangerates table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|c:\\users\\athan\\onedrive\\desktop\\gitdesktop_repos\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\ecb-exchangerateprovider\\migrations\\20250316174926_fixing overflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}|ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.csproj|solutionrelative:ecb-exchangerateprovider\\migrations\\20250316174926_fixing overflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\athan\\AppData\\Local\\Temp\\4s2dy11d..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\athan\\AppData\\Local\\Temp\\4s2dy11d..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,7 +127,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,7 +135,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\athan\\AppData\\Local\\Temp\\4s2dy11d..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\4s2dy11d..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-16T18:42:55.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrencyValidator.cs",
+              "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Validation\\CurrencyValidator.cs",
+              "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Validation\\CurrencyValidator.cs",
+              "ToolTip": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Validation\\CurrencyValidator.cs",
+              "RelativeToolTip": "ECB-ExchangeRateProvider\\Validation\\CurrencyValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:39:18.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "20250316175026_Recreating ExchangeRates table.Designer.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Migrations\\20250316175026_Recreating ExchangeRates table.Designer.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Migrations\\20250316175026_Recreating ExchangeRates table.Designer.cs",
@@ -135,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "20250316175109_Recreating Both tables.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Migrations\\20250316175109_Recreating Both tables.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Migrations\\20250316175109_Recreating Both tables.cs",
@@ -148,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "20250316175026_Recreating ExchangeRates table.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Migrations\\20250316175026_Recreating ExchangeRates table.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Migrations\\20250316175026_Recreating ExchangeRates table.cs",
@@ -161,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "20250316174926_Fixing overflow.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Migrations\\20250316174926_Fixing overflow.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Migrations\\20250316174926_Fixing overflow.cs",
@@ -174,20 +211,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "WalletController.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Controllers\\WalletController.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Controllers\\WalletController.cs",
               "ToolTip": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Controllers\\WalletController.cs",
               "RelativeToolTip": "ECB-ExchangeRateProvider\\Controllers\\WalletController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T16:43:41.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AutoMapperSolutionProfile.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\AutoMapper-Profiles\\AutoMapperSolutionProfile.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\AutoMapper-Profiles\\AutoMapperSolutionProfile.cs",
@@ -200,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "WalletRepository.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Repositories\\WalletRepository.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Repositories\\WalletRepository.cs",
@@ -213,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ExchangeRateDbRepository.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Repositories\\ExchangeRateDbRepository.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Repositories\\ExchangeRateDbRepository.cs",
@@ -226,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Strategy.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Data\\Strategy.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Data\\Strategy.cs",
@@ -239,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "WalletDto.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\DTO\\WalletDto.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\DTO\\WalletDto.cs",
@@ -252,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ExchangeRateDto.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\DTO\\ExchangeRateDto.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\DTO\\ExchangeRateDto.cs",
@@ -265,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "IWalletRepository.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Repositories\\IWalletRepository.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Repositories\\IWalletRepository.cs",
@@ -278,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IExchangeRateDbRepository.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Repositories\\IExchangeRateDbRepository.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Repositories\\IExchangeRateDbRepository.cs",
@@ -291,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "WalletModel.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Models\\WalletModel.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Models\\WalletModel.cs",
@@ -304,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ExchangeRateModel.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Models\\ExchangeRateModel.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Models\\ExchangeRateModel.cs",
@@ -317,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ExchangeDbContext.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\DBContexts\\ExchangeDbContext.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\DBContexts\\ExchangeDbContext.cs",
@@ -330,20 +367,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UpdateExchangeRatesJob.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Jobs\\UpdateExchangeRatesJob.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Jobs\\UpdateExchangeRatesJob.cs",
               "ToolTip": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Jobs\\UpdateExchangeRatesJob.cs",
               "RelativeToolTip": "ECB-ExchangeRateProvider\\Jobs\\UpdateExchangeRatesJob.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAApwB4AAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T12:20:46.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\appsettings.json",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\appsettings.json",
@@ -356,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ECB-ExchangeRateProvider.http",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.http",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider.http",
@@ -369,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\Program.cs",
               "RelativeDocumentMoniker": "ECB-ExchangeRateProvider\\Program.cs",
@@ -382,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ExchangeRate.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ExchangeRateGateway\\Models\\ExchangeRate.cs",
               "RelativeDocumentMoniker": "ExchangeRateGateway\\Models\\ExchangeRate.cs",
@@ -395,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ExchangeRateDate.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ExchangeRateGateway\\Models\\ExchangeRateDate.cs",
               "RelativeDocumentMoniker": "ExchangeRateGateway\\Models\\ExchangeRateDate.cs",
@@ -408,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ExchangeRateCube.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ExchangeRateGateway\\Models\\ExchangeRateCube.cs",
               "RelativeDocumentMoniker": "ExchangeRateGateway\\Models\\ExchangeRateCube.cs",
@@ -421,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ExchangeRateResponse.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ExchangeRateGateway\\Models\\ExchangeRateResponse.cs",
               "RelativeDocumentMoniker": "ExchangeRateGateway\\Models\\ExchangeRateResponse.cs",
@@ -434,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "IExchangeRateService.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ExchangeRateGateway\\Interfaces\\IExchangeRateService.cs",
               "RelativeDocumentMoniker": "ExchangeRateGateway\\Interfaces\\IExchangeRateService.cs",
@@ -447,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ExchangeRateService.cs",
               "DocumentMoniker": "C:\\Users\\athan\\OneDrive\\Desktop\\GitDesktop_Repos\\ECB-ExchangeRateProvider\\ECB-ExchangeRateProvider\\ExchangeRateGateway\\ExchangeRateService.cs",
               "RelativeDocumentMoniker": "ExchangeRateGateway\\ExchangeRateService.cs",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ECB-ExchangeRateProvider")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50ee409db5f817c399ab2e4681362d41adcff116")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38e2cc75cd1cc718182eda9baec78e9b072932dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ECB-ExchangeRateProvider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ECB-ExchangeRateProvider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
