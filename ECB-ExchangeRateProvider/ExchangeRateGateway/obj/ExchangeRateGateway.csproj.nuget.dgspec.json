@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -54,6 +53,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.14.0, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",
@@ -76,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

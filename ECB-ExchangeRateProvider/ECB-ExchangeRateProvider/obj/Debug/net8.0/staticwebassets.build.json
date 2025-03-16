@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TYWZbQffeXyHgurFG6KirvjhUDCd3f0IcD/KU2WJKe0=",
+  "Source": "ECB-ExchangeRateProvider",
+  "BasePath": "_content/ECB-ExchangeRateProvider",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

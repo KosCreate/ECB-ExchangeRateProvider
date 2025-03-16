@@ -3,6 +3,6 @@
 namespace ExchangeRateGateway.Models {
     public class ExchangeRateCube {
         [XmlElement("Cube")]
-        public List<ExchangeRateDate>? ExchangeRates { get; set; }
+        public List<ExchangeRateDate> ExchangeRates { get; set; } = new();
     }
 }

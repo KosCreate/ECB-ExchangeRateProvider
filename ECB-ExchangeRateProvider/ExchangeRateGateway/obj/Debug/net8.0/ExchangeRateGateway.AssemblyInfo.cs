@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExchangeRateGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9859678410ed3813f9c89159f85cbd5e0f02c358")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50ee409db5f817c399ab2e4681362d41adcff116")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExchangeRateGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExchangeRateGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

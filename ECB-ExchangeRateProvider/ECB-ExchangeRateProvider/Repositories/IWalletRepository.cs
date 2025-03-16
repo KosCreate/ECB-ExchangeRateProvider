@@ -1,11 +1,11 @@
 ﻿using ECB_ExchangeRateProvider.Data;
-using ECB_ExchangeRateProvider.DTO;
+using ECB_ExchangeRateProvider.Models;
 
 namespace ECB_ExchangeRateProvider.Repositories {
     public interface IWalletRepository {
-        Task<WalletDto?> GetWalletAsync(long walletId);
-        Task<int> CreateWalletAsync(WalletDto wallet);
-        Task<decimal> RetrieveWalletBalanceAsync(long walletId);
-        Task<int> AdjustWalletBalanceAsync(long walletId, int balance, string currency, Strategy strategy);
+        Task<WalletModel?> GetWalletAsync(long walletId);
+        Task<WalletModel> CreateWalletAsync(WalletModel wallet);
+        Task<decimal?> RetrieveWalletBalanceAsync(long walletId, string? currency);
+        Task<WalletModel> AdjustWalletBalanceAsync(long walletId, decimal amount, string currency, Strategy strategy);
     }
 }

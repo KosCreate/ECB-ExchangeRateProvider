@@ -8,15 +8,22 @@ namespace ExchangeRateGateway {
         private readonly HttpClient _httpClient = httpClient;
 
         public async Task<ExchangeRateResponse> GetLatestRateAsync() {
-            var response = await _httpClient.GetStringAsync("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
+            try {
+                var response = await _httpClient.GetStringAsync("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
 
-            var xmlDoc = new XmlDocument();
-            xmlDoc.LoadXml(response);
-            var xmlRoot = xmlDoc.DocumentElement;
+                var xmlSerializer = new XmlSerializer(typeof(ExchangeRateResponse));
 
-            var serializer = new XmlSerializer(typeof(ExchangeRateResponse), new XmlRootAttribute(xmlRoot!.Name));
-            using var stringReader = new StringReader(xmlDoc.OuterXml);
-            return (ExchangeRateResponse)serializer.Deserialize(stringReader)!;
+                using var stringReader = new StringReader(response);
+                using var xmlReader = XmlReader.Create(stringReader, new XmlReaderSettings { IgnoreWhitespace = true });
+                var exchangeRate = (ExchangeRateResponse)xmlSerializer.Deserialize(xmlReader)!;
+                return exchangeRate;
+            }
+            catch (InvalidOperationException ex) {
+                throw new Exception($"XML Deserialization Error: {ex.InnerException?.Message ?? ex.Message}");
+            }
+            catch (Exception ex) {
+                throw new Exception($"Error: Failed to fetch exchange rates. Exception: {ex.Message}");
+            }
         }
     }
 }

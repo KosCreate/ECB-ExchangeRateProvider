@@ -261,6 +261,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Quartz/3.14.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1"
+        },
+        "compile": {
+          "lib/net8.0/Quartz.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Quartz.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/9.0.3": {
         "type": "package",
         "compile": {
@@ -803,6 +819,29 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Quartz/3.14.0": {
+      "sha512": "j8mY6S0FWbtuEFbStUEZAkkGpZLbSuTT0us1w0DUQqhi+vwg/7XXS36TeH3o34zZoqYGyXvk6jrKnW/p6kS8sg==",
+      "type": "package",
+      "path": "quartz/3.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Quartz.dll",
+        "lib/net462/Quartz.xml",
+        "lib/net472/Quartz.dll",
+        "lib/net472/Quartz.xml",
+        "lib/net8.0/Quartz.dll",
+        "lib/net8.0/Quartz.xml",
+        "lib/net9.0/Quartz.dll",
+        "lib/net9.0/Quartz.xml",
+        "lib/netstandard2.0/Quartz.dll",
+        "lib/netstandard2.0/Quartz.xml",
+        "quartz-logo-small.png",
+        "quartz.3.14.0.nupkg.sha512",
+        "quartz.nuspec",
+        "quick-start.md"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/9.0.3": {
       "sha512": "cBA+28xDW33tSiGht/H8xvr8lnaCrgJ7EdO348AfSGsX4PPJUOULKxny/cc9DVNGExaCrtqagsnm5M2mkWIZ+g==",
       "type": "package",
@@ -998,6 +1037,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.Http >= 9.0.3",
+      "Quartz >= 3.14.0",
       "System.Net.Http.Json >= 9.0.3"
     ]
   },
@@ -1045,8 +1085,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1055,6 +1094,10 @@
           "Microsoft.Extensions.Http": {
             "target": "Package",
             "version": "[9.0.3, )"
+          },
+          "Quartz": {
+            "target": "Package",
+            "version": "[3.14.0, )"
           },
           "System.Net.Http.Json": {
             "target": "Package",
@@ -1077,7 +1120,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

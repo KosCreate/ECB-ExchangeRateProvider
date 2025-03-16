@@ -1,0 +1,13 @@
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\bin\Debug\net8.0\ExchangeRateGateway.deps.json
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\bin\Debug\net8.0\ExchangeRateGateway.dll
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\bin\Debug\net8.0\ExchangeRateGateway.pdb
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.csproj.AssemblyReference.cache
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.AssemblyInfoInputs.cache
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.AssemblyInfo.cs
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.csproj.CoreCompileInputs.cache
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.sourcelink.json
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.dll
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\refint\ExchangeRateGateway.dll
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ExchangeRateGateway.pdb
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ExchangeRateGateway\obj\Debug\net8.0\ref\ExchangeRateGateway.dll

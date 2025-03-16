@@ -3,7 +3,7 @@
 namespace ExchangeRateGateway.Models {
     public class ExchangeRate {
         [XmlAttribute("currency")]
-        public string? Current { get; set; }
+        public string? Currency { get; set; }
         [XmlAttribute("rate")]
         public decimal Rate { get; set; }
     }

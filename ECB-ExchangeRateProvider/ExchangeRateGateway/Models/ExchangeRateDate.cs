@@ -5,7 +5,7 @@ namespace ExchangeRateGateway.Models {
         [XmlAttribute("time")]
         public string? Date { get; set; }
 
-        [XmlAttribute("Cube")]
-        public List<ExchangeRate>? Rates { get; set; }
+        [XmlElement("Cube")]
+        public List<ExchangeRate> Rates { get; set; } = new();
     }
 }
