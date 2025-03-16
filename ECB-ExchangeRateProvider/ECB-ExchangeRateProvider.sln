@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECB-ExchangeRateProvider", "ECB-ExchangeRateProvider\ECB-ExchangeRateProvider.csproj", "{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRateGateway", "ExchangeRateGateway\ExchangeRateGateway.csproj", "{D09ACEE1-187F-448E-9BB3-71839E650175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A505EABB-FDBA-4105-BD1E-DDDAEA6D71AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09ACEE1-187F-448E-9BB3-71839E650175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09ACEE1-187F-448E-9BB3-71839E650175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09ACEE1-187F-448E-9BB3-71839E650175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09ACEE1-187F-448E-9BB3-71839E650175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

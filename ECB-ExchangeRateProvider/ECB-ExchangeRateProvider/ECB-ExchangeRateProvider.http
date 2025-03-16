@@ -1,0 +1,6 @@
+@ECB_ExchangeRateProvider_HostAddress = http://localhost:5249
+
+GET {{ECB_ExchangeRateProvider_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
