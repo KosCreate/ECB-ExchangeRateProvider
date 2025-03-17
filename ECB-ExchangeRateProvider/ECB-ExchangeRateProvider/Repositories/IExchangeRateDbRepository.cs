@@ -2,7 +2,7 @@
 
 namespace ECB_ExchangeRateProvider.Repositories {
     public interface IExchangeRateDbRepository {
-        Task MergeExchangeRateAsync(ExchangeRateModel rate);
+        Task MergeExchangeRatesAsync(List<ExchangeRateModel> rates);
         public Task<decimal?> GetLatestExchangeRateAsync(string currency);
     }
 }

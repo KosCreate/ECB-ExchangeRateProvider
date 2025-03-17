@@ -4,7 +4,10 @@ using ECB_ExchangeRateProvider.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECB_ExchangeRateProvider.Repositories {
-    public class WalletRepository(ExchangeDbContext exchangeRateDBContext, IExchangeRateDbRepository exchangeRateDbRepository) : IWalletRepository {
+    public class WalletRepository(
+        ExchangeDbContext exchangeRateDBContext,
+        IExchangeRateDbRepository exchangeRateDbRepository) : IWalletRepository {
+
         private readonly ExchangeDbContext _exchangeRateDBContext = exchangeRateDBContext;
         private readonly IExchangeRateDbRepository _exchangeRateDbRepository = exchangeRateDbRepository;
 
@@ -14,6 +17,15 @@ namespace ECB_ExchangeRateProvider.Repositories {
             return wallet;
         }
 
+        /// <summary>
+        /// Adjust wallet balance by the specified amount
+        /// </summary>
+        /// <param name="walletId"></param>
+        /// <param name="amount"></param>
+        /// <param name="currency"></param>
+        /// <param name="strategy">Used an enum to be able to validate the request attribute and for ease-of use in the application</param>
+        /// <returns></returns>
+        /// <exception cref="Exception">Throws an exception if the strategy is invalid</exception>
         public async Task<WalletModel> AdjustWalletBalanceAsync(long walletId, decimal amount, string currency, Strategy strategy) {
             var wallet = await GetWalletAsync(walletId) ?? throw new Exception("Could not find specified wallet");
 
@@ -44,12 +56,8 @@ namespace ECB_ExchangeRateProvider.Repositories {
             return wallet;
         }
 
-        public async Task<WalletModel?> GetWalletAsync(long walletId) {
-            return await _exchangeRateDBContext.Wallets.FirstOrDefaultAsync(item => item.Id.Equals(walletId));
-        }
-
         public async Task<decimal?> RetrieveWalletBalanceAsync(long walletId, string? currency) {
-            var wallet = await _exchangeRateDBContext.Wallets.FirstOrDefaultAsync(item => item.Id.Equals(walletId));
+            var wallet = await GetWalletAsync(walletId);
 
             if (wallet == null) {
                 return null;
@@ -62,11 +70,12 @@ namespace ECB_ExchangeRateProvider.Repositories {
 
                 balance *= exchangeRate;
             }
-            else {
-                balance = wallet.Balance;
-            }
 
             return balance;
+        }
+
+        public async Task<WalletModel?> GetWalletAsync(long walletId) {
+            return await _exchangeRateDBContext.Wallets.FirstOrDefaultAsync(item => item.Id.Equals(walletId));
         }
     }
 }

@@ -7,6 +7,12 @@ namespace ExchangeRateGateway {
     public class ExchangeRateService(HttpClient httpClient) : IExchangeRateService {
         private readonly HttpClient _httpClient = httpClient;
 
+        /// <summary>
+        /// Accesses available exchange rates from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+        /// parses the xml response and returns the resulting object
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public async Task<ExchangeRateResponse> GetLatestRateAsync() {
             try {
                 var response = await _httpClient.GetStringAsync("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");

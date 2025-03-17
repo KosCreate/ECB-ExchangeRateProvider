@@ -22,23 +22,26 @@ namespace ECB_ExchangeRateProvider.Jobs {
             }
 
             var cachedRates = new Dictionary<string, decimal>();
+            var exchangeRateModels = new List<ExchangeRateModel>();
 
             foreach (var rateDate in exchangeRates.EnvelopeCube!.ExchangeRates!) {
                 foreach (var exchangeRate in rateDate.Rates!) {
-
-                    var exchangeRateModel = new ExchangeRateModel() {
+                    var exchangeRateModel = new ExchangeRateModel {
                         Date = DateTime.Parse(rateDate.Date!).Date,
                         Rate = exchangeRate.Rate,
                         Currency = exchangeRate.Currency,
                     };
-
-                    await _exchangeRateDbRepository.MergeExchangeRateAsync(exchangeRateModel);
-
+                    exchangeRateModels.Add(exchangeRateModel);
                     cachedRates[exchangeRate.Currency!] = exchangeRate.Rate;
                 }
             }
 
+            if (exchangeRateModels.Count > 0) {
+                await _exchangeRateDbRepository.MergeExchangeRatesAsync(exchangeRateModels);
+            }
+
             _memoryCache.Set("ExchangeRates", cachedRates, TimeSpan.FromHours(1));
         }
+
     }
 }

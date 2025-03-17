@@ -1,15 +1,15 @@
-﻿using AutoMapper;
-using ECB_ExchangeRateProvider.DBContexts;
+﻿using ECB_ExchangeRateProvider.DBContexts;
 using ECB_ExchangeRateProvider.Models;
-using ExchangeRateGateway.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
+using System.Data;
 
 namespace ECB_ExchangeRateProvider.Repositories {
     public class ExchangeRateDbRepository(
         ExchangeDbContext exchangeRateDBContext,
         IMemoryCache memoryCache) : IExchangeRateDbRepository {
+
         private readonly ExchangeDbContext _exchangeRateDBContext = exchangeRateDBContext;
         private readonly IMemoryCache _memoryCache = memoryCache;
 
@@ -28,22 +28,35 @@ namespace ECB_ExchangeRateProvider.Repositories {
             return exchangeRate.Rate;
         }
 
-        public async Task MergeExchangeRateAsync(ExchangeRateModel rate) {
-            // Ensure Date is within SQL Server valid range
-            rate.Date = DateTime.Now;
+        /// <summary>
+        /// Merge exchange rates to ensure fields mutate only when needed and in a single query
+        /// </summary>
+        /// <param name="rate"></param>
+        /// <returns></returns>
+        public async Task MergeExchangeRatesAsync(List<ExchangeRateModel> rates) {
+            var dataTable = new DataTable();
+            dataTable.Columns.Add("Date", typeof(DateTime));
+            dataTable.Columns.Add("Currency", typeof(string));
+            dataTable.Columns.Add("Rate", typeof(decimal));
+
+            foreach (var rate in rates) {
+                dataTable.Rows.Add(rate.Date, rate.Currency, rate.Rate);
+            }
+
+            var parameter = new SqlParameter("@ExchangeRates", dataTable) {
+                TypeName = "dbo.ExchangeRateTableType",
+                SqlDbType = SqlDbType.Structured
+            };
 
             await _exchangeRateDBContext.Database.ExecuteSqlRawAsync(@"
-                    MERGE INTO ExchangeRates AS target
-                    USING (SELECT @Date AS Date, @Currency AS Currency, @Rate AS Rate) AS source
-                    ON target.Date = source.Date AND target.Currency = source.Currency
-                    WHEN MATCHED THEN
-                        UPDATE SET target.Rate = source.Rate
-                    WHEN NOT MATCHED THEN
-                        INSERT (Date, Currency, Rate) VALUES (source.Date, source.Currency, source.Rate);",
-            new SqlParameter("@Date", rate.Date),
-            new SqlParameter("@Currency", rate.Currency),
-            new SqlParameter("@Rate", rate.Rate));
+                MERGE INTO ExchangeRates AS target
+                USING @ExchangeRates AS source
+                ON target.Date = source.Date AND target.Currency = source.Currency
+                WHEN MATCHED THEN
+                    UPDATE SET target.Rate = source.Rate
+                WHEN NOT MATCHED THEN
+                    INSERT (Date, Currency, Rate) VALUES (source.Date, source.Currency, source.Rate);",
+            parameter);
         }
-
     }
 }
