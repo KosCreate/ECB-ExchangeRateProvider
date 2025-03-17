@@ -180,3 +180,5 @@ C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-Ex
 C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\obj\Debug\net8.0\ECB-ExchangeRateProvider.pdb
 C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\obj\Debug\net8.0\ECB-ExchangeRateProvider.genruntimeconfig.cache
 C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\obj\Debug\net8.0\ref\ECB-ExchangeRateProvider.dll
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\bin\Debug\net8.0\AspNetCoreRateLimit.dll
+C:\Users\athan\OneDrive\Desktop\GitDesktop_Repos\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\ECB-ExchangeRateProvider\bin\Debug\net8.0\Newtonsoft.Json.dll

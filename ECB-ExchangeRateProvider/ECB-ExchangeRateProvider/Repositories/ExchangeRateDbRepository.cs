@@ -4,19 +4,28 @@ using ECB_ExchangeRateProvider.Models;
 using ExchangeRateGateway.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace ECB_ExchangeRateProvider.Repositories {
-    public class ExchangeRateDbRepository(ExchangeDbContext exchangeRateDBContext) : IExchangeRateDbRepository {
+    public class ExchangeRateDbRepository(
+        ExchangeDbContext exchangeRateDBContext,
+        IMemoryCache memoryCache) : IExchangeRateDbRepository {
         private readonly ExchangeDbContext _exchangeRateDBContext = exchangeRateDBContext;
+        private readonly IMemoryCache _memoryCache = memoryCache;
 
-        public async Task<ExchangeRateModel?> GetLatestExchangeRateAsync(string currency) {
+        public async Task<decimal?> GetLatestExchangeRateAsync(string currency) {
+            if(_memoryCache.TryGetValue("ExchangeRates", out Dictionary<string, decimal>? rates)) {
+                var hasValue = rates!.TryGetValue(currency, out var ratesValue);
+                return hasValue ? ratesValue : null;
+            }
+
             var exchangeRate = await _exchangeRateDBContext.ExchangeRates.FirstOrDefaultAsync(item => item.Currency!.Equals(currency));
 
             if (exchangeRate == null) {
                 return null;
             }
 
-            return exchangeRate;
+            return exchangeRate.Rate;
         }
 
         public async Task MergeExchangeRateAsync(ExchangeRateModel rate) {

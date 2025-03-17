@@ -19,7 +19,7 @@ namespace ECB_ExchangeRateProvider.Repositories {
 
             if (!wallet.Currency!.Equals(currency)) {
                 var exchangeRate = await _exchangeRateDbRepository.GetLatestExchangeRateAsync(currency) ?? throw new Exception("Could not fetch latest exchange rates");
-                amount *= exchangeRate.Rate;
+                amount *= exchangeRate;
             }
 
             switch (strategy) {
@@ -60,9 +60,7 @@ namespace ECB_ExchangeRateProvider.Repositories {
             if (!string.IsNullOrEmpty(currency) && !wallet.Currency!.Equals(currency)) {
                 var exchangeRate = await _exchangeRateDbRepository.GetLatestExchangeRateAsync(currency) ?? throw new Exception("Could not fetch latest exchange rates");
 
-                Console.WriteLine($"RATE : {exchangeRate.Rate} | {exchangeRate.Currency}");
-
-                balance *= exchangeRate.Rate;
+                balance *= exchangeRate;
             }
             else {
                 balance = wallet.Balance;
